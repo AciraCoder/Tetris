@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   user-select: none;
-  background-color: gainsboro;
+
 }
 
 h1 {
@@ -21,16 +21,16 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   background-color: #2b2c2c;
+  border: 10px solid #464747;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 10px solid #464747;
+  left: 45%;
+  transform: translate(-45%, -50% );
 }
 
 .grid div {
-  height: 30px;
-  width: 30px;
+  height: 29px;
+  width: 29px;
   margin: 0;
 }
 
@@ -135,3 +135,9 @@ p {
   font-weight: bold;
 }
 
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
